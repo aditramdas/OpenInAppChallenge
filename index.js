@@ -108,7 +108,8 @@ async function sendReplyAndLabel(gmail, message, replyText) {
     });
   
     const messages = response.data.messages || [];
-  
+
+    // Loop through each message and check if it has been replied
     for (const message of messages) {
       const messageData = await gmail.users.messages.get({
         userId: 'me',
@@ -122,7 +123,7 @@ async function sendReplyAndLabel(gmail, message, replyText) {
       });
   
       const thread = threadResponse.data;
-      const isReplied = thread.messages.length > 1;
+      const isReplied = thread.messages.length > 1; // Check if there is more than 1 message in the thread
   
       if (!isReplied) {
         const replyText = 'Hey, this is an automated reply. Will be connecting with you soon. Thanks';
