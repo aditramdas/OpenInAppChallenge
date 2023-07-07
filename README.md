@@ -22,3 +22,6 @@ The tool is a Node.js application that utilizes the Gmail API to automate the pr
 3) Configure Google Auth from Google Cloud Console
 4) Configure the '.env' file according to the template provided
 5) Type "node index.js" and then authenticate the app by clicking the link when prompted
+
+# Where I can improve
+I can improve my code to show the output in a formatted way in a web browser which would make user access easier. This would be used only by developers, and not the common people, which comes off as a con.
