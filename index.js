@@ -197,7 +197,10 @@ async function main() {
   
         // Create Gmail API client
        const gmail = google.gmail({ version: 'v1', auth: oAuth2Client });
-       
+
+       // Clear console
+       console.clear()
+
        // Read unread messages
        await readUnreadMessages(gmail);
 
