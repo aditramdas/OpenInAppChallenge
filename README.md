@@ -1,11 +1,9 @@
 # OpenInApp Challenge
 This project is a NodeJS app that would list out the unread email (set to a maximum of 5, at the moment) and would reply to emails which is not already replied to. 
 
-![image](https://github.com/aditramdas/OpenInAppChallenge/assets/68638084/3af77cdf-7b9d-4007-8b06-aebdbfcadbab)
-
-![image](https://github.com/aditramdas/OpenInAppChallenge/assets/68638084/c45fb40f-c417-41fd-b801-cd0a64b97d88)
-
-![image](https://github.com/aditramdas/OpenInAppChallenge/assets/68638084/5dad9449-b8e6-4b43-a35b-485fafad5311)
+![Screenshot](img1.png)
+![Screenshot](img2.png)
+![Screenshot](img3.png)
 
 # APIs Used
 Here, we have used the GMail API to implement this project, along with nodemailer to send emails. 
