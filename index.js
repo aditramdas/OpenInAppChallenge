@@ -49,6 +49,7 @@ async function sendEmail(){
             text: 'Hello from gmail email using API',
             html: '<h1>Hello from gmail email using API</h1>'
         };
+        
         const result = await transport.sendMail(mailOptions);
         return result;
 
@@ -58,3 +59,7 @@ async function sendEmail(){
 }
 sendEmail().then((result) => console.log('Email sent...', result))
 .catch((error) => console.log(error.message));
+
+
+
+
