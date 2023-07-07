@@ -2,9 +2,9 @@
 This project is a NodeJS app that would list out the unread email (set to a maximum of 5, at the moment) and would reply to emails which is not already replied to. 
 
 ![Screenshot](img1.png)
-<br />
+<br >
 ![Screenshot](img2.png)
-<br />
+<br >
 ![Screenshot](img3.png)
 
 # APIs Used
