@@ -13,6 +13,8 @@ GMail API is part of the Google APIs and would require authentication from Googl
 
 Nodemailer is an open-source tool used to send emails. There are different methods to authenticate for emailing, but here we have used the OAuth method. First, an interface is created which includes the Authentication type and user details(having Client_ID, Client_Secret, AccessToken, and RefreshToken). Then we specify mailOptions which provides details about the mail to be sent.
 
+# Demo Video - [Video Link](https://drive.google.com/file/d/1pcLSodtuJRuBEM5-wfaQP-ryFD3TeD_5/view?usp=sharing)
+
 # How the tool works
 The tool is a Node.js application that utilizes the Gmail API to automate the process of identifying and handling unreplied email threads. It authenticates with the user's Gmail account using OAuth2 and scans for unread messages. It determines if a message is part of an unreplied thread by checking the thread length. If a thread has only one message, it is considered unreplied. The tool then sends an automated reply to the sender using Nodemailer, labels the email with a custom label in Gmail, and marks it as read. The process repeats at random intervals between 45 to 120 seconds, ensuring timely handling of unreplied emails.
 
