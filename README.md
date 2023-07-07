@@ -5,6 +5,7 @@ This project is a NodeJS app that would list out the unread email (set to a maxi
 
 ![image](https://github.com/aditramdas/OpenInAppChallenge/assets/68638084/c45fb40f-c417-41fd-b801-cd0a64b97d88)
 
+![image](https://github.com/aditramdas/OpenInAppChallenge/assets/68638084/5dad9449-b8e6-4b43-a35b-485fafad5311)
 
 # APIs Used
 Here, we have used the GMail API to implement this project, along with nodemailer to send emails. 
